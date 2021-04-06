@@ -1,0 +1,65 @@
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #222831;
+    font-size: 80%;
+}
+
+.title {
+    color: white;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 3rem;
+    font-size: 50px;
+    padding: 3rem 0 0 0;
+    text-align: center;
+}
+
+#scoreheading {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.score {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.scoreboard {
+    display: grid;
+}
+
+#container {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#rock,
+#paper,
+#scissors {
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: space-between;
+    border-style: none;
+}
+
+#rock:hover {
+    background-color: goldenrod;
+}
+
+#paper:hover {
+    background-color: goldenrod;
+}
+
+#scissors:hover {
+    background-color: goldenrod;
+}
